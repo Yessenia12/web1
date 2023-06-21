@@ -1,0 +1,29 @@
+convencion de web 
+controladores-> plural (1era mayuscula)
+                archivos .php 
+                Menus.php
+
+vistas -> carpetas para cada controlador con el mismo nombre todo en minusculas 
+                 menus 
+
+
+debo irme 
+url =es localisador de recursos univerasal 
+que es http /https /url 
+
+
+
+una ves instado y coriendo codeigniter abrimos en visual y debemos hacer varias configuraciones
+    1 vamos a configurar la url base  para esto nos vamos a la capeta aplication y buscamos la carpeta config y dentro buscamos
+    config.php lo abrimos  y buscamos la funcion     $config['base_url'] = '';  generalmente esta en la linea 26  esta linea nos dice que vamos a estableces 
+    la ruta base del proyecto este va a http://localhost/web1/ lo debemos copiar desde el navegador esta ruta esta conformada de
+    protocolo://dominio/nom_proyecto/ usamos localhost xk lo vamos a realizar en nuestra pc
+    2. despues nos vamos al archivo autoload.php  que este archivo nos permite hacer la carga automatica lo abrimos y desde la linea 21 hasta la 30 nos dice 
+    que nomas podemos cargarentre las opciones tenemos helper el cual es un ayudante  por lo general esta en la linea 92 
+    $autoload['helper'] = array(''); una linea arriba nos da los paranetros que podemos pasarle las culaes son url y file en este caso en las '' vamos a poner url
+    3. ahora 
+    el cotrolador reliza riquest al modelo y responst ala vista 
+    
+    vista GUI interfas grafia de ususario  aki se maneja  js, html, css
+    controlador php lenguajes 
+    modelo BBDD 
